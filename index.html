@@ -12,7 +12,7 @@
 <div class ="container"> 
     <div class="calculator">
         <input type="text" placeholder="0" id="output-screen">
-        <button onclick="clear()">CLR</button>
+        <button onclick="clear1()">CLR</button>
         <button onclick="del()">DEL</button>
         <button onclick="display('%')">%</button>
         <button onclick="display('/')">/</button>
@@ -47,8 +47,8 @@
             alert("Invalid")
         }
     }
-    function clear(){
-        outputscreen.value = "";
+    function clear1(){
+        outputscreen.value="";
     }
     function del(){
         outputscreen.value= outputscreen.value.slice(0,-1);
